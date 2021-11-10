@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #1f2937;
+  font-size: 18px;
+  color: #e5e7eb;
+  padding: 16px 80px 40px 80px;
+  gap: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bold;
+}
+
+.header ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+.top-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top-content h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight:bolder;
+}
+
+button {
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+.top-content button {
+  background-color: #3882f6;
+  border: 1px solid #3882f6;
+  color: #e5e7eb;
+  font-weight: bold;
+}
+
+.top-content img {
+  height: 300px;
+  width: auto;
+  border: 1px solid #1f2937;
+  border-radius: 8px;
+}
+
+.middle-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.middle-section img {
+  height: 100px;
+  width: 100px;
+  border: 1px solid #1f2937;
+  border-radius: 8px;
+}
+
+.middle-section h1 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  margin-bottom: 32px;
+}
+
+.middle-section .plants {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.middle-section .plant {
+  width: 100px;
+}
+
+.testimonial {
+  background-color: #e5e7eb;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.testimonial .quote {
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+}
+
+.testimonial .name {
+  align-self: flex-end;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.action {
+  background-color: #3882f6;
+  margin: 32px 50px;
+  border: 1px solid #3882f6;
+  border-radius: 8px;
+  padding: 20px 64px;
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  align-content: center;
+}
+
+.action button {
+  background-color: #3882f6;
+  font-weight: bolder;
+  color: #e5e7eb;
+  height: fit-content;
+  align-self: center;
+}
+
+.footer {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 20px;
+  font-size: 18px;
+  color: #e5e7eb;
+}
